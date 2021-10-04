@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Good Soup</title><!--title that shows up on tab-->
+        <style type="text/css"> 
+            
+            body{
+                background-image: url(soups.jpeg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+            }
+
+            header{
+                width: 100%;
+            }
+
+            .fixed-headertitle1{
+            width: 100%;
+            padding: 5px 0;
+            position: fixed; top: 0; left: 10px; 
+            background: #fff;
+            color: rgb(0, 0, 0);
+            font-family: Avenir, Geneva, Tahoma, sans-serif;
+            font-size: 30px
+            }
+
+            .fixed-headertitle2{
+            width: 100%;
+            position: absolute; top: 43px; left: 34px; 
+            background: #fff;
+            color: rgb(0, 0, 0);
+            font-family: Avenir, Geneva, Tahoma, sans-serif;
+            font-size: 15px
+            }
+
+            .container{
+            width: 90%;
+            margin: 0 auto; /* Center the DIV horizontally */
+            }
+
+            .container2{
+            width: 100%;
+            margin: 0 auto; /* Center the DIV horizontally */
+            }
+
+            .fixed-header, .fixed-footer{
+            width: 100%;
+            position: fixed;        
+            background: rgb(235, 206, 80);
+            color: #fff;
+            font-family: Geneva, Tahoma, sans-serif;
+            }
+
+            .fixed-header{
+            top: 63px;
+            left: 0; /*ask about this */
+            }
+            .fixed-footer{
+            bottom: 0;
+            left: 0;
+            padding: 20px 0;
+            font-size: 10px;
+            }    
+
+            .nav li {display: inline-block; font-size: 15px; padding: 5px 20px 5px 20px; box-sizing:border-box; border: 1px solid rgb(235, 206, 80); color: #fff}  
+
+            .nav li a {text-decoration: none; color: inherit; padding: 7px 25px; display: inline-block;}
+            
+            .nav li:hover {color: rgb(66, 41, 26)}
+
+            .container4{
+            font-family: Avenir, Geneva, Tahoma, sans-serif;
+            right: 100px; top: 280px; position: fixed; 
+            }
+
+            .container5{
+            font-family: Avenir, Geneva, Tahoma, sans-serif;
+            font-style: italic; 
+            right: 140px; top: 400px; position: fixed; 
+            }
+
+            .container6{
+            font-family: Avenir, Geneva, Tahoma, sans-serif;
+            left: 20px; top: 730px; position: absolute; 
+            }
+
+            @media screen and (min-width: 601px) {
+                .container4 {
+                    font-size: 100px;
+                }
+                .container5 {
+                    font-size: 35px;
+                }
+                .container6 {
+                    font-size: 25px;
+                }
+            }
+
+            /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+            @media screen and (max-width: 600px) {
+                .container4 {
+                    font-size: 70px;
+                }
+                .container5 {
+                    font-size: 20px;
+                }
+                .container6 {
+                    font-size: 15px;
+                }
+            }
+
+        </style>
+
+</head>
+<body> 
+    <header>
+        <div class = "fixed-headertitle1">
+            Good Soup </br>
+            <div class = "fixed-headertitle2">
+                Soup Express
+            </div>
+        </div>
+
+        <div class="fixed-header">
+            <div class="container2">
+                <ol class="nav">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="ourservices.html">Our Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+    <div class="container4">Good soup</br></div>
+    <div class="container5">nothing less, nothing more</br>
+        right to your front door!</div>
+    <div class="container6">24/7 soup delivery, you name it, we got it! Here to meet your every soup desire. </div>
+
+
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2021 Good Soup, LLC. All Rights Reserved</div>        
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title><!--title that shows up on tab-->
+        <style type="text/css"> 
+
+            header{
+                width: 100%;
+            }
+
+            .fixed-headertitle1{
+            width: 100%;
+            padding: 5px 0;
+            position: fixed; top: 0; left: 10px; 
+            background: #fff;
+            color: rgb(0, 0, 0);
+            font-family: Avenir, Geneva, Tahoma, sans-serif;
+            font-size: 30px
+            }
+
+            .fixed-headertitle2{
+            width: 100%;
+            position: absolute; top: 43px; left: 34px; 
+            background: #fff;
+            color: rgb(0, 0, 0);
+            font-family: Avenir, Geneva, Tahoma, sans-serif;
+            font-size: 15px
+            }
+
+            .container{
+            width: 90%;
+            margin: 0 auto; /* Center the DIV horizontally */
+            }
+
+            .container2{
+            width: 100%;
+            margin: 0 auto; /* Center the DIV horizontally */
+            }
+
+            .container3{
+            top: 150px;
+            left: 130px;
+            width: 80%;  
+            margin: 0 auto; /* Center the DIV horizontally */
+            text-align: center;
+            position:absolute;
+            font-family: Geneva, Tahoma, sans-serif;
+            }
+
+            .fixed-header, .fixed-footer{
+            width: 100%;
+            position: fixed;        
+            background: rgb(235, 206, 80);
+            color: #fff;
+            font-family: Geneva, Tahoma, sans-serif;
+            }
+
+            .fixed-header{
+            top: 63px;
+            left: 0; /*ask about this */
+            }
+            .fixed-footer{
+            bottom: 0;
+            left: 0;
+            padding: 20px 0;
+            font-size: 10px;
+            }    
+
+            .nav li {display: inline-block; font-size: 15px; padding: 5px 20px 5px 20px; box-sizing:border-box; border: 1px solid rgb(235, 206, 80); color: #fff}  
+
+            .nav li a {text-decoration: none; color: inherit; padding: 7px 25px; display: inline-block;}
+            
+            .nav li:hover {color: rgb(66, 41, 26)}
+
+            @media screen and (min-width: 601px) {
+                .container3 {
+                    font-size: 15px;
+                }
+            }
+
+            /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+            @media screen and (max-width: 600px) {
+                .container3 {
+                    font-size: 8px;
+                }
+            }
+
+        </style>
+
+</head>
+
+<body> 
+    <header>
+        <div class = "fixed-headertitle1">
+            Good Soup </br>
+            <div class = "fixed-headertitle2">
+                Soup Express
+            </div>
+        </div>
+
+        <div class="fixed-header">
+            <div class="container2">
+                <ol class="nav">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="ourservices.html">Our Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="container3">
+
+        <p>We do our best to ensure that your soup arrives piping hot and is of high quality.
+           That's just what Good Soup's all about! If you're unhappy with the quality of our soup, please feel free to contact us
+           at 123-456-7890 or email us at contact@goodsoup.com</p>
+
+        <p>Or, fill out this form below for any additional questions.</p>
+
+        <form action='#' method='post'>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="ques">Your Question/Concern:</label>
+            <input type="text" id="ques" name="ques"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form> 
+
+    </div>
+
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2021 Good Soup, LLC. All Rights Reserved</div>        
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="servicestyle.css">
+    <title>Our Services</title><!--title that shows up on tab-->
+</head>
+
+<body>
+    <header>
+        <div class = "fixed-headertitle1">
+            Good Soup </br>
+            <div class = "fixed-headertitle2">
+                Soup Express
+            </div>
+        </div>
+
+        <div class="fixed-header">
+            <div class="container2">
+                <ol class="nav">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="ourservices.html">Our Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="images">
+        <div class="imgContainer">
+            <img src="cooking.jpeg" alt="Cooking" class="responsive" width="200" height="150">
+        </div>
+        <div class="imgContainer">
+            <img src="packing food.jpeg" alt="Packing" class="responsive" width="200" height="150">
+        </div>
+        <div class="imgContainer">
+            <img src="delivery.jpeg" alt="Delivery" class="responsive" width="200" height="150">
+        </div>
+
+    </div>
+    
+
+    <div class="container3">
+       
+            <p>With over 500 different ingredients to create soups of any kind, Good Soup ensures fresh, 
+                high-quality soups no matter the time of day. Simply place your order in our soup form 
+                and we will cook, pack, and ship your meal straight to your front door!</p>
+ 
+            <p>Each order of soup comes with a spoon, a bowl, napkins, and a package of our
+                crisp and lightly salted oyster crackers.</p>
+ 
+            <p>Fill out our form below!</p>
+
+            <form action='#' method='post'>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="soupt">Type of Soup:</label>
+                <input type="text" id="soupt" name="soupt"><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address"><br><br>
+                <label for="timeS">Time of Delivery:</label>
+                <input type="text" id="timeS" name="timeS">
+                <input type="radio" id="am" name="timeset" value="AM">
+                <label for="am">AM</label>
+                <input type="radio" id="PM" name="timeset" value="PM">
+                <label for="pm">PM</label><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form> 
+
+    </div>
+
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2021 Good Soup, LLC. All Rights Reserved</div>        
+    </div>
+</body>
+</html>
